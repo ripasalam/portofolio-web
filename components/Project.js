@@ -37,12 +37,12 @@ const Project = () => {
 
     return (
         <section id='project'>
-            <div className=' bg-white dark:bg-stone-950 px-20 md:px-52 pt-44 pb-20'>
-                <h1 data-aos='fade-up' data-aos-delay='150' className='text-center font-bold text-2xl md:text-5xl mb-20 dark:text-neutral-100'>Projects</h1>
+            <div className=' px-20 md:px-52 pt-44 pb-20'>
+                <h1 data-aos='fade-up' data-aos-delay='150' className='text-center font-bold text-2xl md:text-5xl mb-20'>Projects</h1>
                 <div className='grid grid-cols gap-24 border py-4 px-3 rounded-lg shadow-lg hover:opacity-70 '>
                     {projects.map((project, idx) => (
                         <Link href={`${project.link}`} key={idx}>
-                            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20 hover:opacity-70' data-aos='fade-left' data-aos-delay='200'>
+                            <div className='grid grid-cols-1 lg:grid-cols-2 gap-20 hover:opacity-70' data-aos='fade-up' data-aos-delay='300'>
                                 <Image src={project.img} alt='project' width={900} height={900} className='rounded-md shadow-xl' />
                                 <div className='lg:pt-0 text-center lg:text-left' >
                                     <h1 className='font-bold text-2xl  lg:text-4xl mb-10 dark:text-neutral-100'>{project.title}</h1>

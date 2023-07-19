@@ -28,7 +28,7 @@ const Navbar = () => {
     const currentTheme = theme === 'system' ? systemTheme : theme
 
     return (
-        <div className='w-full top-0 z-50 fixed grid grid-cols-2 py-5 mx-auto bg-white dark:bg-stone-950 dark:border-b dark:dark-stone-600 px-4 sm:px-20 shadow-md'>
+        <div className='bg-white dark:bg-stone-950 w-full top-0 z-50 fixed grid grid-cols-2 py-5 mx-auto dark:border-b dark:dark-stone-600 px-4 sm:px-20 shadow-md'>
             <div className=' self-center'>
                 <div className=' dark:text-neutral-100 text-neutral-900 font-bold text-3xl'>
                     Ripa Miptah

@@ -17,7 +17,7 @@ const NAV_ITEMS = [
 
 const Footer = () => {
     return (
-        <div className='w-full bordort-t  grid grid-cols-1 md:grid-cols-2 pt-5  lg:pt-10 pb-10 mx-auto bg-white dark:bg-stone-950 dark:border-b dark:dark-stone-600 px-4 sm:px-20 shadow-md'>
+        <div className='w-full border-t  grid grid-cols-1 md:grid-cols-2 pt-5  lg:pt-10 pb-10 mx-auto dark:border-t dark:dark-stone-600 px-4 sm:px-20 shadow-md'>
             <div className='row-start-2 md:row-start-1 text-center justify-self-center md:justify-self-start md:text-left'>
                 <div>
                     <h1 className=' text-lg md:text-xl font-bold dark:text-neutral-100 text-slate-700'>Ripa Miptah Salam</h1>
