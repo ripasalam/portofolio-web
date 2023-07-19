@@ -33,7 +33,7 @@ const animations = [
 const About = () => {
     return (
         <section id='about'>
-            <div className='bg-white dark:bg-stone-950  px-20 md:px-52 pt-36'>
+            <div className='bg-white dark:bg-stone-950  px-20 md:px-52 pt-36 pb-10'>
                 <h1 data-aos='fade-up' data-aos-delay='150' className='text-center font-bold text-2xl md:text-5xl mb-20 dark:text-neutral-100'>About</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-4 lg:gap-10 shadow-lg p-5 border rounded-xl'>
                     <div className=' w-32 h-32 justify-self-center self-center col-span-1 rounded-xl overflow-hidden shadow-2xl' >

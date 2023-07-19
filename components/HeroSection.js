@@ -17,7 +17,7 @@ const HeroSection = () => {
                 </div >
                 <div className='flex justify-center bg-white dark:bg-stone-950'>
                     <a href='#about' >
-                        <RiArrowDropDownLine size={50} className='dark:text-neutral-100' />
+                        <RiArrowDropDownLine size={50} className='text-neutral-900 dark:text-neutral-100' />
                     </a>
 
                 </div>
