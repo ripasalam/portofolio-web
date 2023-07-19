@@ -11,8 +11,8 @@ const HeroSection = () => {
                         <Image loading='lazy' src={'/static/images/YGBM8705.JPG'} alt='profile' width={200} height={200} className="w-full h-full object-cover object-center" />
                     </div>
                     <div className='w-10/12 self-center text-center md:text-left ml-4' >
-                        <h1 className=' text-4xl md:text-7xl font-bold dark:text-neutral-100'>Hi, I&#39;m Ripa!</h1>
-                        <p className='text-lg mt-4 mb-6 md:text-2xl dark:text-neutral-100'>Electronics Engineer.Interested in web development</p>
+                        <h1 className=' text-4xl md:text-7xl font-bold text-neutral-900 dark:text-neutral-100'>Hi, I&#39;m Ripa!</h1>
+                        <p className='text-lg mt-4 mb-6 md:text-2xl text-neutral-900 dark:text-neutral-100'>Electronics Engineer.Interested in web development</p>
                     </div>
                 </div >
                 <div className='flex justify-center bg-white dark:bg-stone-950'>

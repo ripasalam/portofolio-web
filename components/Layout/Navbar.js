@@ -30,13 +30,13 @@ const Navbar = () => {
     return (
         <div className='w-full top-0 z-50 fixed grid grid-cols-2 py-5 mx-auto bg-white dark:bg-stone-950 dark:border-b dark:dark-stone-600 px-4 sm:px-20 shadow-md'>
             <div className=' self-center'>
-                <div className=' dark:text-neutral-100 font-bold text-3xl'>
+                <div className=' dark:text-neutral-100 text-neutral-900 font-bold text-3xl'>
                     Ripa Miptah
                 </div>
             </div>
             <div className='md:hidden justify-self-end'>
                 <button
-                    className='p-3 border border-gray-300 rounded-lg'
+                    className='p-3 border border-gray-300 rounded-lg text-neutral-900 dark:bg-neutral-100'
                     onClick={() => { setNavbar(!navbar) }}
                 >
                     {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={25} />}
@@ -53,7 +53,7 @@ const Navbar = () => {
                             {item.label}
                         </a>
                     ))}
-                    {currentTheme === 'dark' ? <button onClick={() => { setTheme('light') }} className='p-2 rounded-lg bg-slate-100' ><RiSunFill size={20} /></button> : <button onClick={() => { setTheme('dark') }} className='p-2 rounded-lg bg-slate-100'><RiMoonFill size={20} /></button>
+                    {currentTheme === 'dark' ? <button onClick={() => { setTheme('light') }} className='p-2 rounded-lg bg-slate-200' ><RiSunFill size={20} /></button> : <button onClick={() => { setTheme('dark') }} className='p-2 rounded-lg  bg-slate-200'><RiMoonFill size={20} /></button>
 
                     }
                 </div>
