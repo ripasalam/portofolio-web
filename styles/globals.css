@@ -12,3 +12,16 @@ body {
   font-family: 'Inter', sans-serif;
 
 }
+
+.animation-hover:after {
+  
+  content: '';
+  height: 2px;
+  transition: all .5s;
+  @apply absolute w-0 left-1/2 bg-slate-500 bottom-0
+}
+
+.animation-hover:hover:after {
+  
+  @apply left-0 w-full 
+}

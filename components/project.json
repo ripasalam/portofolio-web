@@ -3,6 +3,12 @@
          "title": "JobConnect",
          "description": "Final Project Rakamin academy build job hiring website with Next.js & Tailwind",
          "link": "https://github.com/ripasalam/jobconnectpro-client"
+     },
+     {
+         "img": "/static/images/laslesvpn1.png",
+         "title": "Lasles VPN",
+         "description": "Develop and slicing figma hompage",
+         "link": "https://lasles-vpn-liart.vercel.app"
      }
 
 
